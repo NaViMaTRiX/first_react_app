@@ -12,6 +12,7 @@ function App() {
                 value={value}
                 onChange={event => setValue(event.target.value)}
             />
+            <button></button>
             <Counter />
         </div>
     );
